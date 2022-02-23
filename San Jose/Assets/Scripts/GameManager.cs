@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         music = FindObjectOfType<MusicController>();
 
         if (SceneManager.GetActiveScene().name == "MainMenu") {
-            music.StopMusic("AdventureMusic");
+            //music.StopMusic("AdventureMusic");
             if (music.musicLength > 2f) {
                 music.MusicChange("Menu");
             }

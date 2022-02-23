@@ -44,7 +44,6 @@ public class MusicController : MonoBehaviour {
     void Update() {
         musicLength = sounds[0].source.clip.length;
         musicTime = sounds[0].source.time;
-
     }
 
     public void StopMusic(string name) {
