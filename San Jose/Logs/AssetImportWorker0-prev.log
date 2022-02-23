@@ -1,0 +1,980 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.376; Version 2009; 64bit' Language: 'es' Physical Memory: 14229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Desktop/SJ_Rep/LaSombraDelPadre_SanJose/San Jose
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64693
+Successfully changed project path to: C:/Users/USER/Desktop/SJ_Rep/LaSombraDelPadre_SanJose/San Jose
+C:/Users/USER/Desktop/SJ_Rep/LaSombraDelPadre_SanJose/San Jose
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Desktop/SJ_Rep/LaSombraDelPadre_SanJose/San Jose/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Microsoft Basic Render Driver (ID=0x8c)
+    Vendor:   
+    VRAM:     7114 MB
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001228 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (283ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (121ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.1 MB.
+System memory in use after: 94.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 2.696800 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.398100 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_4.asset
+  artifactKey: Guid(38f44eab2f9aba14c8b1d350b01837f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_4.asset using Guid(38f44eab2f9aba14c8b1d350b01837f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c935817cd03d49c64fc035689ae6d191') in 0.061705 seconds 
+  Import took 0.064748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas
+  artifactKey: Guid(b6f7b70e23ca43d489aa8ed04fa0cfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas using Guid(b6f7b70e23ca43d489aa8ed04fa0cfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942b78f7aa3fe2983dcd4787feb49dc9') in 0.006757 seconds 
+  Import took 0.009225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_1.asset
+  artifactKey: Guid(bfd4c503abf07da44b54c52465d630cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_1.asset using Guid(bfd4c503abf07da44b54c52465d630cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb7fdec10b53c79bc0cdf2a1bccfe29') in 0.011772 seconds 
+  Import took 0.014599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_3.asset
+  artifactKey: Guid(982529c4e40bb014ba93140deb2cb099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_3.asset using Guid(982529c4e40bb014ba93140deb2cb099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5b2750d4c2e8e5247a9937872fb7b9') in 0.010426 seconds 
+  Import took 0.012961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_0.asset
+  artifactKey: Guid(2f99e4afa09788d48955a652ed3707df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_0.asset using Guid(2f99e4afa09788d48955a652ed3707df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8faaef8ca6acb9b7794f669f778af') in 0.010171 seconds 
+  Import took 0.013069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_2.asset
+  artifactKey: Guid(419703477a7e1904399ebb9c5793c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_2.asset using Guid(419703477a7e1904399ebb9c5793c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacd2bf9cf59bd5a87ce44d840c1c8bc') in 0.009998 seconds 
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.049964 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_5.asset
+  artifactKey: Guid(c4404dc70fcda35469e55f3143680b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_5.asset using Guid(c4404dc70fcda35469e55f3143680b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f5effe325f1e448b0103eee56dc648') in 0.031896 seconds 
+  Import took 0.036999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_6.asset
+  artifactKey: Guid(20b5e04bc3d946c4e92e1af7c623c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_6.asset using Guid(20b5e04bc3d946c4e92e1af7c623c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178f2724b7ba6f234843081540e55af1') in 0.041058 seconds 
+  Import took 0.046427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578209 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_7.asset
+  artifactKey: Guid(7857f8b7bc0195e4794fa6c1a17ac3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_7.asset using Guid(7857f8b7bc0195e4794fa6c1a17ac3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e641cef37d7dacb57ec56a88af47b88f') in 0.010435 seconds 
+  Import took 0.016213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_8.asset
+  artifactKey: Guid(e513d5dc3fc2deb49ad0495ca584218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_8.asset using Guid(e513d5dc3fc2deb49ad0495ca584218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f363bf30ee5f0884fb52707dab61fdd') in 0.032656 seconds 
+  Import took 0.035754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001408 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_8.asset
+  artifactKey: Guid(e513d5dc3fc2deb49ad0495ca584218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_8.asset using Guid(e513d5dc3fc2deb49ad0495ca584218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f363bf30ee5f0884fb52707dab61fdd') in 0.008872 seconds 
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_9.asset
+  artifactKey: Guid(3526d80bb2872ff489bc0662272e8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_9.asset using Guid(3526d80bb2872ff489bc0662272e8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede554a8c1c9c24e22f4883f0a14694b') in 0.014564 seconds 
+  Import took 0.017876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_10.asset
+  artifactKey: Guid(dffadfee7aa62504a9337683a2fc8440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_10.asset using Guid(dffadfee7aa62504a9337683a2fc8440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20a36755c2adec7f30d9e3030eb42e7') in 0.019432 seconds 
+  Import took 0.029662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_11.asset
+  artifactKey: Guid(7c66bc4c14655d2418a4c693c5639991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_11.asset using Guid(7c66bc4c14655d2418a4c693c5639991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae4e3a20278cef073252acbdb07f8f1') in 0.015630 seconds 
+  Import took 0.022203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_12.asset
+  artifactKey: Guid(c86cec3d8c7249e449bedcfadf96b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_12.asset using Guid(c86cec3d8c7249e449bedcfadf96b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dee8028e7c4c8b1f2d52105b517f3aa') in 0.011699 seconds 
+  Import took 0.014330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001332 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_18.asset
+  artifactKey: Guid(c99120f0924a50740aa33be0b38888fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_18.asset using Guid(c99120f0924a50740aa33be0b38888fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d816dcbb20a481842598023fe946a5') in 0.027079 seconds 
+  Import took 0.034338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_19.asset
+  artifactKey: Guid(919b061e81bae104b9fab794ec648249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_19.asset using Guid(919b061e81bae104b9fab794ec648249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136bfbf07f0f886e7d506cdb38d38ba0') in 0.010386 seconds 
+  Import took 0.012984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_21.asset
+  artifactKey: Guid(cb5bb8e1e8ac1514ca7c987aa0b53f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_21.asset using Guid(cb5bb8e1e8ac1514ca7c987aa0b53f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22e8328959339a3aa93fe245f78fa7b') in 0.025106 seconds 
+  Import took 0.031559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001742 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_20.asset
+  artifactKey: Guid(f20506340d1921b4c90230e91015969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_20.asset using Guid(f20506340d1921b4c90230e91015969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0fbf26d9dff4b001098a050544ba11') in 0.015171 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_25.asset
+  artifactKey: Guid(c199d5a29c0c3534b90d3d4902c950fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_25.asset using Guid(c199d5a29c0c3534b90d3d4902c950fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93ffc105fb86640a5fcb9d6e0517ef7') in 0.031961 seconds 
+  Import took 0.036637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_23.asset
+  artifactKey: Guid(7046bc6344c06fb4c819bf2f959feebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_23.asset using Guid(7046bc6344c06fb4c819bf2f959feebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edf3a1c268bbf115a1886574f944b8c') in 0.011531 seconds 
+  Import took 0.015405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_26.asset
+  artifactKey: Guid(21617aa2a0e33ce448db4f0d4fd51d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_26.asset using Guid(21617aa2a0e33ce448db4f0d4fd51d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb34c52ce9979db901080fe83c6e3dd') in 0.021627 seconds 
+  Import took 0.026458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_29.asset
+  artifactKey: Guid(34c23d24bd12f3746af8ab801bd323a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_29.asset using Guid(34c23d24bd12f3746af8ab801bd323a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4eabeed87a17197e9e4aef40daaff5') in 0.014823 seconds 
+  Import took 0.022745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_30.asset
+  artifactKey: Guid(cd45282e5102af04192cea97d88601c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_30.asset using Guid(cd45282e5102af04192cea97d88601c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83878ae2d7e5ebf94488154ee773da47') in 0.010228 seconds 
+  Import took 0.017590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_31.asset
+  artifactKey: Guid(a310285ce4259a4458828d819bdb3b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_31.asset using Guid(a310285ce4259a4458828d819bdb3b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff0cf6a5aa07a652bbdff56283732d7') in 0.028875 seconds 
+  Import took 0.032676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_28.asset
+  artifactKey: Guid(b1e8eba8a53d3da43b4a08266aa0a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_28.asset using Guid(b1e8eba8a53d3da43b4a08266aa0a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3786938f42fc4d93628cfb2211c353') in 0.011456 seconds 
+  Import took 0.014471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_38.asset
+  artifactKey: Guid(8c03be0c356bd9741aba8ea26d0372e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_38.asset using Guid(8c03be0c356bd9741aba8ea26d0372e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c5b9360c78154dae3a870339772d78') in 0.010282 seconds 
+  Import took 0.013033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_40.asset
+  artifactKey: Guid(b45dfd6259d64054ca845fea4e0cac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_40.asset using Guid(b45dfd6259d64054ca845fea4e0cac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a96a746653ab8e25ede8e127a8e0822') in 0.025075 seconds 
+  Import took 0.030942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_41.asset
+  artifactKey: Guid(b15f09db0139afc439b9e9e4d84a0d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_41.asset using Guid(b15f09db0139afc439b9e9e4d84a0d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cbdf665ed38bfe50dc3d9b3fe03d0a') in 0.010503 seconds 
+  Import took 0.014332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_43.asset
+  artifactKey: Guid(fb66c460bb40fec4fa2b2ecd0f1ff150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_43.asset using Guid(fb66c460bb40fec4fa2b2ecd0f1ff150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb908e836c0e437482c634a42a976f') in 0.010279 seconds 
+  Import took 0.013374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_54.asset
+  artifactKey: Guid(a057ea860c7091d42b3501dba5593866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_54.asset using Guid(a057ea860c7091d42b3501dba5593866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d3f8289be339052283f5f7663e5bbb') in 0.028852 seconds 
+  Import took 0.032855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001018 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_53.asset
+  artifactKey: Guid(31e53fe405b920a488a6b8b0a23bbc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_53.asset using Guid(31e53fe405b920a488a6b8b0a23bbc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81785a27e18234fe829bc537e1c4b3e2') in 0.010563 seconds 
+  Import took 0.016167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_58.asset
+  artifactKey: Guid(963b8fc94bbf48e4fa814f7befae6942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_58.asset using Guid(963b8fc94bbf48e4fa814f7befae6942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ad7aa8b5cb010cdc882f98c24870d0') in 0.018213 seconds 
+  Import took 0.022759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_42.asset
+  artifactKey: Guid(f24eb87c3ed7a4947a0b1220c092ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_42.asset using Guid(f24eb87c3ed7a4947a0b1220c092ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa03373b869cf571927f813791aa7c2') in 0.021123 seconds 
+  Import took 0.026483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_59.asset
+  artifactKey: Guid(7da8ec3946716674082fda0caddc9a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_59.asset using Guid(7da8ec3946716674082fda0caddc9a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4e6aee497f16a90e04ad9ab96d64ce') in 0.030423 seconds 
+  Import took 0.035445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_55.asset
+  artifactKey: Guid(9a002ad256e59ae459f19129cf5113f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_55.asset using Guid(9a002ad256e59ae459f19129cf5113f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666570e045085367bd935b7db5fea128') in 0.032111 seconds 
+  Import took 0.037637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_27.asset
+  artifactKey: Guid(994266ddd422d1d40b458e33ec869e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_27.asset using Guid(994266ddd422d1d40b458e33ec869e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b260acaf284b01d1e49a03cecff69459') in 0.036481 seconds 
+  Import took 0.046263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_60.asset
+  artifactKey: Guid(6e2ee2a4f7adb304780e3e5f13bbca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_60.asset using Guid(6e2ee2a4f7adb304780e3e5f13bbca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c500384218044407f80d21a470d4d3b0') in 0.029884 seconds 
+  Import took 0.035586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_37.asset
+  artifactKey: Guid(887a0363325a9ae4a912cbee45c744f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_37.asset using Guid(887a0363325a9ae4a912cbee45c744f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e84dd15f8cb8db5d11bb9b848989810') in 0.031932 seconds 
+  Import took 0.039128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001033 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_56.asset
+  artifactKey: Guid(470886f385fe1df4290ccd3cbaba57a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_56.asset using Guid(470886f385fe1df4290ccd3cbaba57a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97fcc12592d5754aac1c7f5ad6e279f') in 0.032098 seconds 
+  Import took 0.045585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_39.asset
+  artifactKey: Guid(f3ed97749b9fadc478baa26f5f5141e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_39.asset using Guid(f3ed97749b9fadc478baa26f5f5141e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989cb9772b0e6cd99ac49371e52e613a') in 0.024030 seconds 
+  Import took 0.033660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_57.asset
+  artifactKey: Guid(b89eb152c316fa2428ab927375e8ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_57.asset using Guid(b89eb152c316fa2428ab927375e8ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c799041289049b8a0a5b95c61e02bdbf') in 0.033919 seconds 
+  Import took 0.043275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_14.asset
+  artifactKey: Guid(e5b6e3d860f8b8740bcc29757b7f02dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_14.asset using Guid(e5b6e3d860f8b8740bcc29757b7f02dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f8c515d14deb159e286502b69cd104') in 0.018927 seconds 
+  Import took 0.025901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_57.asset
+  artifactKey: Guid(b89eb152c316fa2428ab927375e8ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_57.asset using Guid(b89eb152c316fa2428ab927375e8ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c799041289049b8a0a5b95c61e02bdbf') in 0.020600 seconds 
+  Import took 0.032925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_44.asset
+  artifactKey: Guid(2e50cc1866deefc458410597edb95c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_44.asset using Guid(2e50cc1866deefc458410597edb95c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69a79254fdae108f06b72004574fd09') in 0.031779 seconds 
+  Import took 0.037858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_63.asset
+  artifactKey: Guid(10925fb9ffbf6424587633168ea5cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_63.asset using Guid(10925fb9ffbf6424587633168ea5cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43fccd274e1e896e4ec0d8e4c9edb23') in 0.030936 seconds 
+  Import took 0.046098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001522 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_32.asset
+  artifactKey: Guid(2ea563037241f4a46937a9b59d798fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_32.asset using Guid(2ea563037241f4a46937a9b59d798fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371ada47451c8a32858f8ac2555eb77c') in 0.023914 seconds 
+  Import took 0.028949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_24.asset
+  artifactKey: Guid(48580f1c644ba0f488d029c369a92dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_24.asset using Guid(48580f1c644ba0f488d029c369a92dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21a21f34d83b004b2dc4a56d5aa9b97') in 0.034497 seconds 
+  Import took 0.043949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_36.asset
+  artifactKey: Guid(5fe236f67e56a1f4bae53d35f012ce45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_36.asset using Guid(5fe236f67e56a1f4bae53d35f012ce45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0c4733f6f282efd1d4226714cf64e5') in 0.026605 seconds 
+  Import took 0.034620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002371 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_13.asset
+  artifactKey: Guid(ab189caaba25cb14fab69d8726f46e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_13.asset using Guid(ab189caaba25cb14fab69d8726f46e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30ad191ee2a23feebd736b78cd0e701') in 0.034942 seconds 
+  Import took 0.038577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_22.asset
+  artifactKey: Guid(ef3cd37a335a16b44b6b3a40cbae0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/SJ_Tiles-Sheet_V2_22.asset using Guid(ef3cd37a335a16b44b6b3a40cbae0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a7cd166044b1d23390bc2a60bd2296') in 0.024534 seconds 
+  Import took 0.033459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.264538 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros
+  artifactKey: Guid(deaff4c977d7fbf45aadf0ff40b3aca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros using Guid(deaff4c977d7fbf45aadf0ff40b3aca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3e04dd5b7d381896abc044fbf36e54') in 0.014056 seconds 
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036539 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_4.asset
+  artifactKey: Guid(e36244ac6c2d2a24d9e579fa6301cdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_4.asset using Guid(e36244ac6c2d2a24d9e579fa6301cdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87d581227f1dcaf51945c0bd19baaeb') in 0.011192 seconds 
+  Import took 0.014387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_5.asset
+  artifactKey: Guid(f0aa158155fdfe34e8cd70f063c30a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_5.asset using Guid(f0aa158155fdfe34e8cd70f063c30a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f8701998bfb96af87da97b343cde15') in 0.009720 seconds 
+  Import took 0.012436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_8.asset
+  artifactKey: Guid(5cffb1a4465a09b4590cc043e52dca56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_8.asset using Guid(5cffb1a4465a09b4590cc043e52dca56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a388b4211ee65fa99f1bb525a1ec05') in 0.009643 seconds 
+  Import took 0.012649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_10.asset
+  artifactKey: Guid(97e23e0fcb555344a9834423b1344261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_10.asset using Guid(97e23e0fcb555344a9834423b1344261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970c7ae5846f113264876af2496e168e') in 0.009550 seconds 
+  Import took 0.012183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_11.asset
+  artifactKey: Guid(7530b6b80c71ac54381efa6f2db748eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_11.asset using Guid(7530b6b80c71ac54381efa6f2db748eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70fa2f422534ca3bad903149d35d620') in 0.024259 seconds 
+  Import took 0.029224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_7.asset
+  artifactKey: Guid(477c3cc2b37590c438b549b80fed70c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_7.asset using Guid(477c3cc2b37590c438b549b80fed70c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da33bc426ab4808f76e0264e9bc0958') in 0.027458 seconds 
+  Import took 0.032812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001043 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_9.asset
+  artifactKey: Guid(78f68191f54d2504b8372f2cdb62069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_9.asset using Guid(78f68191f54d2504b8372f2cdb62069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17d56d753f173503c5a41918af5c55c') in 0.029161 seconds 
+  Import took 0.033698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_20.asset
+  artifactKey: Guid(2350ce5d84101f14287ee443cf6f2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_20.asset using Guid(2350ce5d84101f14287ee443cf6f2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b015aa3d6e872379a5d29823c954f') in 0.035973 seconds 
+  Import took 0.042452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001239 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_21.asset
+  artifactKey: Guid(34372857ccc8af24f90a12a2c2f48c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_21.asset using Guid(34372857ccc8af24f90a12a2c2f48c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e12b4c44c9fdee388de5228baf7b0d') in 0.024474 seconds 
+  Import took 0.032314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_19.asset
+  artifactKey: Guid(31fee6e144f3b6c4d9451368f71749f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_19.asset using Guid(31fee6e144f3b6c4d9451368f71749f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ccb10a1ce1ae54c0e84b49717d2407') in 0.028337 seconds 
+  Import took 0.040612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_6.asset
+  artifactKey: Guid(6ef039acea65fb34d9ace9e5df7a2e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_6.asset using Guid(6ef039acea65fb34d9ace9e5df7a2e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e6f0fbb0d3e0ed7a7cdd17a484982d') in 0.027881 seconds 
+  Import took 0.033331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.406444 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_22.asset
+  artifactKey: Guid(48af9ce7d42c49f48bd9cc25ed6a4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_22.asset using Guid(48af9ce7d42c49f48bd9cc25ed6a4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81754ac81f60af96d629d43ccb2dfa41') in 0.010630 seconds 
+  Import took 0.014491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_25.asset
+  artifactKey: Guid(400b0e1441e634d498350ec379d002f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_25.asset using Guid(400b0e1441e634d498350ec379d002f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794a0396bfe360ea6f5487e449b91783') in 0.010047 seconds 
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_34.asset
+  artifactKey: Guid(c3ba8358343b4f8439e8304b5e19cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_34.asset using Guid(c3ba8358343b4f8439e8304b5e19cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd5ec0a7178bf56a146ec488e019399') in 0.014955 seconds 
+  Import took 0.019045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001217 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_45.asset
+  artifactKey: Guid(17d913eb52cb25f4c9f39ac6a70dd315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_45.asset using Guid(17d913eb52cb25f4c9f39ac6a70dd315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7247768bad6509e48acdd62abd4922e') in 0.028242 seconds 
+  Import took 0.035438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_26.asset
+  artifactKey: Guid(8d494dadd845f6b448ce44860232329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_26.asset using Guid(8d494dadd845f6b448ce44860232329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35f2b1ecef3b3833ab0ee2ebe07f899') in 0.035023 seconds 
+  Import took 0.041510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_24.asset
+  artifactKey: Guid(15d1894cc3cbc0f4499342b056c38a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_24.asset using Guid(15d1894cc3cbc0f4499342b056c38a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3780bbde1bfbb235101ecb398fd890d') in 0.020831 seconds 
+  Import took 0.025721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_37.asset
+  artifactKey: Guid(267b5da4d8f111649b5e204ebfd1b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Muros/SJ_Tiles-Sheet_37.asset using Guid(267b5da4d8f111649b5e204ebfd1b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4839a63f2024c26d0a0c93ddaf9f8421') in 0.027110 seconds 
+  Import took 0.034452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.449525 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos
+  artifactKey: Guid(5b6447173d0a28f4fb6d7663757ffe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos using Guid(5b6447173d0a28f4fb6d7663757ffe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66be8087f4f214df6dd556ebb1a920f8') in 0.012660 seconds 
+  Import took 0.017328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003604 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_0.asset
+  artifactKey: Guid(1c796ea5f7aa6f549aa6a6e132861103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_0.asset using Guid(1c796ea5f7aa6f549aa6a6e132861103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9969dac3545f248f0520a3811755f5c9') in 0.009887 seconds 
+  Import took 0.015065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_1.asset
+  artifactKey: Guid(1fa164a299991ec4bad075b94fc13d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_1.asset using Guid(1fa164a299991ec4bad075b94fc13d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e309fd8bdf642e99df27bbe1d61026e5') in 0.008688 seconds 
+  Import took 0.011377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_4.asset
+  artifactKey: Guid(3fe15fc15a6b01a47af18c7fdd14bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_4.asset using Guid(3fe15fc15a6b01a47af18c7fdd14bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2996c07dd465c1c6d8fbd7c932f6df6') in 0.008484 seconds 
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_6.asset
+  artifactKey: Guid(6efd5aa6ea69d394585e38da56d0d5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_6.asset using Guid(6efd5aa6ea69d394585e38da56d0d5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc469da01e8c25d15313ef85a755e34') in 0.008656 seconds 
+  Import took 0.011320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_8.asset
+  artifactKey: Guid(4a7921b6d50b3044f9fdc65b20ba1e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_8.asset using Guid(4a7921b6d50b3044f9fdc65b20ba1e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994635a4adece88bdda148823ca47079') in 0.009036 seconds 
+  Import took 0.011816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_11.asset
+  artifactKey: Guid(3c50108fc263089439c73594b2c76a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_11.asset using Guid(3c50108fc263089439c73594b2c76a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb80ae7a9caa3e8aa5e151168b45bd50') in 0.008457 seconds 
+  Import took 0.011361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_0.asset
+  artifactKey: Guid(55cf106d2ad164c4e822dc9caaf732b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_0.asset using Guid(55cf106d2ad164c4e822dc9caaf732b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8800a46b59418222762dd9018bc17278') in 0.009111 seconds 
+  Import took 0.011829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_2.asset
+  artifactKey: Guid(d471c5ed34bb2234681708b67bb2f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_2.asset using Guid(d471c5ed34bb2234681708b67bb2f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b2c37cfd6cb6d19d7bd4a78c93cf51') in 0.009750 seconds 
+  Import took 0.012519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_5.asset
+  artifactKey: Guid(2307a9fc1608d364d88ca7d301a26b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_5.asset using Guid(2307a9fc1608d364d88ca7d301a26b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfa3d80d4dee563db06f28e878c4e11') in 0.008428 seconds 
+  Import took 0.016153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_0.asset
+  artifactKey: Guid(6b192f787e4f17a40b394d12c6b8bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_0.asset using Guid(6b192f787e4f17a40b394d12c6b8bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d1f3198267eb5a3883d699d6594b7e') in 0.031123 seconds 
+  Import took 0.039689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_2.asset
+  artifactKey: Guid(d7c6b4822fc2ff849a51e40aac8f481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_2.asset using Guid(d7c6b4822fc2ff849a51e40aac8f481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99153483fbe4df92ecb49006c64f0191') in 0.033308 seconds 
+  Import took 0.043346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_1.asset
+  artifactKey: Guid(eb75aa7512a495845aee60c9bf749ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_1.asset using Guid(eb75aa7512a495845aee60c9bf749ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52084b7082396ebeecaa67cf63e9b27') in 0.029984 seconds 
+  Import took 0.038419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002228 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_4.asset
+  artifactKey: Guid(ccd66e447ecdd424aa17539ff1899d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_4.asset using Guid(ccd66e447ecdd424aa17539ff1899d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24f752eaba89a884ee20a228090d4fa') in 0.017087 seconds 
+  Import took 0.022317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_3.asset
+  artifactKey: Guid(bd2b19a2fae0b484ca3cef377bb423df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_3.asset using Guid(bd2b19a2fae0b484ca3cef377bb423df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e96666a891f84d7344070df3e945bd') in 0.030220 seconds 
+  Import took 0.038444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_3.asset
+  artifactKey: Guid(5b49ec8b7b3bec441a08f68d75fbefc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_3.asset using Guid(5b49ec8b7b3bec441a08f68d75fbefc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae137c5f54d1cdb430c0d02e416bfc21') in 0.029422 seconds 
+  Import took 0.034364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_7.asset
+  artifactKey: Guid(27fb56f5938b1d246a24b57a7bec5601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_7.asset using Guid(27fb56f5938b1d246a24b57a7bec5601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a973be546ac252f3ab3268a559f938bf') in 0.028585 seconds 
+  Import took 0.037840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003067 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_1.asset
+  artifactKey: Guid(975cdd6bc766741498b8016d6410ee7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones2_1.asset using Guid(975cdd6bc766741498b8016d6410ee7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aee831d3bbc67bb611a53054602190a') in 0.033419 seconds 
+  Import took 0.038851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_5.asset
+  artifactKey: Guid(158c7906738aa4e409b23aea166aaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_5.asset using Guid(158c7906738aa4e409b23aea166aaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb838875a9f83ad60cdcfa48249bf95') in 0.027763 seconds 
+  Import took 0.032870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_9.asset
+  artifactKey: Guid(342f0b4104f9c144da1ce67c73014b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_9.asset using Guid(342f0b4104f9c144da1ce67c73014b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc21ed93d6f931c50429ad2cc66f066') in 0.019172 seconds 
+  Import took 0.027501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_2.asset
+  artifactKey: Guid(d5491e3de5486404e95e3d3b374b5ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_2.asset using Guid(d5491e3de5486404e95e3d3b374b5ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a49ed1654177c1d3be95d519e277f6') in 0.028607 seconds 
+  Import took 0.034302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001767 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_10.asset
+  artifactKey: Guid(6071916eefcc6f548b4459df77509cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/Conexiones1_10.asset using Guid(6071916eefcc6f548b4459df77509cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fabf0a1b8966d8f418b8859cb754435') in 0.033777 seconds 
+  Import took 0.037959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.785371 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_3.asset
+  artifactKey: Guid(095bb29e8c806e2428968dc1640f125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_3.asset using Guid(095bb29e8c806e2428968dc1640f125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7beedb473c29bb82cf433713fd176fef') in 0.009375 seconds 
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_15.asset
+  artifactKey: Guid(b4bb4b6158376cc45b2fcc30773cd9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_15.asset using Guid(b4bb4b6158376cc45b2fcc30773cd9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90aef6b0a9627f72e4f580df697b9bc7') in 0.029859 seconds 
+  Import took 0.033783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_17.asset
+  artifactKey: Guid(e9d1f6a92d4c4634693372c6792b0e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_17.asset using Guid(e9d1f6a92d4c4634693372c6792b0e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3783226b1cac9922913c918e428d2') in 0.027900 seconds 
+  Import took 0.034171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_16.asset
+  artifactKey: Guid(cd0a04fbfc592cc48839a5bc3e6d12fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_16.asset using Guid(cd0a04fbfc592cc48839a5bc3e6d12fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21034bc42a644e9cb27ac869fea4272') in 0.011660 seconds 
+  Import took 0.016757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_18.asset
+  artifactKey: Guid(c6afa67275d3ed0478be461ef4365be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_18.asset using Guid(c6afa67275d3ed0478be461ef4365be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0197df8bac83dff5a03221e1c4fdc772') in 0.011408 seconds 
+  Import took 0.014798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001426 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_30.asset
+  artifactKey: Guid(8031e4a189077fa4e9240d3749adefaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_30.asset using Guid(8031e4a189077fa4e9240d3749adefaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95624db2bea4bb90af009ec1d7c9c122') in 0.024230 seconds 
+  Import took 0.033348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_32.asset
+  artifactKey: Guid(c3c029877a798a4498b81cf4af33d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_32.asset using Guid(c3c029877a798a4498b81cf4af33d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259187289649ec7832f112a47d574d6f') in 0.022010 seconds 
+  Import took 0.026545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_30.asset
+  artifactKey: Guid(8031e4a189077fa4e9240d3749adefaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_30.asset using Guid(8031e4a189077fa4e9240d3749adefaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95624db2bea4bb90af009ec1d7c9c122') in 0.006835 seconds 
+  Import took 0.009879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_40.asset
+  artifactKey: Guid(5fdf87aff7483fe4183346907336a9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_40.asset using Guid(5fdf87aff7483fe4183346907336a9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30556742b0eb8dfbfc65b99ab10b29c') in 0.023529 seconds 
+  Import took 0.027644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001382 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_39.asset
+  artifactKey: Guid(f4e1f8fdc20c30c4399af0b4f32eb919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_39.asset using Guid(f4e1f8fdc20c30c4399af0b4f32eb919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee08bb7ff9dd76cb44e27cd8eb867d5') in 0.033147 seconds 
+  Import took 0.037601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_31.asset
+  artifactKey: Guid(340ace912ccbb8146a80493ad6a5ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_31.asset using Guid(340ace912ccbb8146a80493ad6a5ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872a1b23d5f634a5f545b7910724511b') in 0.021176 seconds 
+  Import took 0.029927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001208 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_33.asset
+  artifactKey: Guid(c10a4c7529092244eaaa542b8f795d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_33.asset using Guid(c10a4c7529092244eaaa542b8f795d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a207e60b25cfde58153c0952e286ac4') in 0.017703 seconds 
+  Import took 0.025546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001047 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_41.asset
+  artifactKey: Guid(487540b442b5674408acfe25d775c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_41.asset using Guid(487540b442b5674408acfe25d775c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cc7013df8b66a82ddb1411557036f0') in 0.023617 seconds 
+  Import took 0.034628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_42.asset
+  artifactKey: Guid(b3e01a4c8c07bcf4e8672b49d28f765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SJ-Sprites/Paletas/Suelos/SJ_Tiles-Sheet_42.asset using Guid(b3e01a4c8c07bcf4e8672b49d28f765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba252427b2de6db763d6383c05bf26c') in 0.026020 seconds 
+  Import took 0.034318 seconds .
+
