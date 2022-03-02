@@ -97,6 +97,10 @@ public class GameManager : MonoBehaviour
             if (Input.GetKey(KeyCode.Escape)) {
                 FindObjectOfType<SceneController>().SalirDelJuego();
             }
+
+            if (Input.GetKey(KeyCode.O)) {
+                ChangeLvl("WinLvl1");
+            }
         }
 
         if (SceneManager.GetActiveScene().name == "PerdisteLvl1") {

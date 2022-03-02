@@ -1,5 +1,77 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &557666607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 557666609}
+  - component: {fileID: 557666608}
+  m_Layer: 0
+  m_Name: "AureolaMar\xEDa"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &557666609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557666607}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0026505883, w: 0.9999965}
+  m_LocalPosition: {x: -0.2130003, y: 1.4321277, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4841085863461575447}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &557666608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557666607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 0.90644145, b: 0.7122642, a: 1}
+  m_Intensity: 0.2
+  m_LightVolumeOpacity: 0.1
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 1
+  m_ShadowVolumeIntensity: 0.56
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0.27155453
+  m_PointLightOuterRadius: 0.8246099
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &4841085863461575441
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,6 +87,7 @@ GameObject:
   - component: {fileID: 870632093}
   - component: {fileID: 870632094}
   - component: {fileID: 870632095}
+  - component: {fileID: 904547644}
   m_Layer: 0
   m_Name: Maria
   m_TagString: Untagged
@@ -34,6 +107,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4841085863462562733}
+  - {fileID: 557666609}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -56,7 +130,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -160,6 +234,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c172035b632c291449cd1ca594c4f256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &904547644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841085863461575441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 1
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.7891722, y: -0.57098484, z: 0}
+  - {x: -0.6013422, y: -0.57208705, z: 0}
+  - {x: -0.5996704, y: -0.5119076, z: 0}
+  - {x: -0.71835804, y: -0.38653326, z: 0}
+  - {x: -0.47429562, y: -0.21268106, z: 0}
+  - {x: -0.4327736, y: -0.08082843, z: 0}
+  - {x: -0.2763481, y: -0.1704874, z: 0}
+  - {x: 0.013612747, y: -0.17811799, z: 0}
+  - {x: 0.17194653, y: -0.11325836, z: 0}
+  - {x: 0.18339252, y: -0.56155276, z: 0}
+  - {x: 0.44092083, y: -0.56918335, z: 0}
+  - {x: 0.43710518, y: -0.49860072, z: 0}
+  - {x: 0.31883144, y: -0.42801833, z: 0}
+  - {x: 0.31883144, y: -0.18765616, z: 0}
+  - {x: 0.66090107, y: 0.26081395, z: 0}
+  - {x: 0.8711958, y: 0.09433055, z: 0}
+  - {x: 1.0070448, y: 0.10468149, z: 0}
+  - {x: 1.0719681, y: 0.29622483, z: 0}
+  - {x: 0.8134775, y: 0.7336695, z: 0}
+  - {x: 0.593791, y: 1.1737255, z: 0}
+  - {x: 0.52847195, y: 1.1205308, z: 0}
+  - {x: 0.48504448, y: 0.7345103, z: 0}
+  - {x: 0.074897766, y: 0.59699047, z: 0}
+  - {x: 0.04112053, y: 0.736923, z: 0}
+  - {x: 0.1593399, y: 0.91787004, z: 0}
+  - {x: 0.08937359, y: 1.2604638, z: 0}
+  - {x: -0.06262207, y: 1.3931584, z: 0}
+  - {x: -0.33252716, y: 1.3894728, z: 0}
+  - {x: -0.50812054, y: 1.2464447, z: 0}
+  - {x: -0.5643759, y: 1.1128346, z: 0}
+  - {x: -0.56174374, y: 0.82147133, z: 0}
+  - {x: -0.50109196, y: 0.74845815, z: 0}
+  - {x: -0.4980812, y: 0.65993714, z: 0}
+  - {x: -0.53400135, y: 0.6579416, z: 0}
+  - {x: -0.53899, y: 0.45639074, z: 0}
+  - {x: -0.6961603, y: 0.45908225, z: 0}
+  - {x: -0.85768604, y: 0.28817987, z: 0}
+  - {x: -0.85816, y: 0.09873128, z: 0}
+  - {x: -0.79612255, y: -0.103465796, z: 0}
+  - {x: -0.73674583, y: -0.22772598, z: 0}
+  - {x: -0.8637924, y: -0.37483168, z: 0}
+  m_ShapePathHash: 1872318855
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -49214
 --- !u!1 &4841085863462562735
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +347,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
