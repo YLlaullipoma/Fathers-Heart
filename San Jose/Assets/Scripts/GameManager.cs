@@ -16,11 +16,8 @@ public class GameManager : MonoBehaviour
 
     //Intern Variables
     float timerCount;
-    //int musicIndex = 0;
-    int currentSceneIndex;
-    bool winnerDoorKnocked;
     float camSize;
-    bool OnCinematic;
+    public bool isFirstTime;
     
 
     [Header("Level 1")]
@@ -51,12 +48,15 @@ public class GameManager : MonoBehaviour
         if (instance == null) instance = this;
         else if (instance != this) Destroy(gameObject);
         DontDestroyOnLoad(this);
+        isFirstTime = true;
+
+        music = FindObjectOfType<MusicController>();
     }
 
     // Update is called once per frame
     void Update() {
-        music = FindObjectOfType<MusicController>();
-
+        
+        //Verificando en que escena está actualmente
         if (SceneManager.GetActiveScene().name == "MainMenu") {
             //music.StopMusic("AdventureMusic");
             if (music.musicLength > 2f) {
@@ -93,14 +93,6 @@ public class GameManager : MonoBehaviour
             }
 
             doorCounter = playerCollisions.listaPuertas.ToArray().Length;
-
-            if (Input.GetKey(KeyCode.Escape)) {
-                FindObjectOfType<SceneController>().SalirDelJuego();
-            }
-
-            if (Input.GetKey(KeyCode.O)) {
-                ChangeLvl("WinLvl1");
-            }
         }
 
         if (SceneManager.GetActiveScene().name == "PerdisteLvl1") {
@@ -110,21 +102,21 @@ public class GameManager : MonoBehaviour
         
     }
 
+    #region Gamplay funtions
     void BaseModeGameplay() {
 
         //music.MusicChange(music.basicAdventure);
 
         if(camSize < 6.7) {
             StartCoroutine(BaseCamMode());
+            return;
         }
-        else {
-            StopCoroutine(BaseCamMode());
-            barrera.desactivar = true;
-            mainCam.orthographicSize = 6.7f;
-            camController.maxCamPos = basicMaxCam;
-            camController.minCamPos = basicMinCam;
-        }
-        
+        StopCoroutine(BaseCamMode());
+        barrera.desactivar = true;
+        mainCam.orthographicSize = 6.7f;
+        camController.maxCamPos = basicMaxCam;
+        camController.minCamPos = basicMinCam;
+
     }
 
     IEnumerator BaseCamMode() {
@@ -165,7 +157,6 @@ public class GameManager : MonoBehaviour
                     instanciasHechas++;
                 }
                 if (doorCounter == lvlDoors.Length) {
-                    Debug.Log("Ganaste");
                     ChangeLvl("WinLvl1");
                 }
             }
@@ -174,5 +165,5 @@ public class GameManager : MonoBehaviour
             TutorialMode();
         }
     }
-
+    #endregion
 }

@@ -13,6 +13,7 @@ public class SceneController : MonoBehaviour
     private void Start() {
         if (SceneManager.GetActiveScene().name == "MainMenu") {
             FindObjectOfType<MusicController>().StopMusic("AdventureMusic");
+            FindObjectOfType<MusicController>().StopMusic("Menu");
             FindObjectOfType<MusicController>().PlayMusic("Intro");
         }
 
@@ -24,6 +25,10 @@ public class SceneController : MonoBehaviour
 
     public void CambiarEscena(string Escena) {
         StartCoroutine(LoadScene(Escena));
+    }
+
+    public void ButtonSound() {
+        FindObjectOfType<MusicController>().PlayMusic("ClickMouse");
     }
 
     public void SalirDelJuego() {

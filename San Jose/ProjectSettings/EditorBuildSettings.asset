@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GamePlay_Lvl1.unity
     guid: 298d92da9a69520459fe3566fa8ddd68
-  - enabled: 0
-    path: Assets/Scenes/CinematicaFinal.unity
-    guid: 7cace819e812d7b4c987d9b017727bd9
   - enabled: 1
     path: Assets/Scenes/PerdisteLvl1.unity
     guid: 5295c65692f8f3e4389f40d0bc2cf244

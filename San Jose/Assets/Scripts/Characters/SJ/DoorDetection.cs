@@ -13,12 +13,18 @@ public class DoorDetection : MonoBehaviour
     public LayerMask door;
     public PlayerMovement playerController;
 
+    public GameObject luzPU;
+
     [HideInInspector]
     public bool powerUp;
     public List<GameObject> listaPuertas = new List<GameObject>();
     public GameObject puertaDetectada;
 
     int vecesAumentado = 0;
+
+    private void Start() {
+        luzPU.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update() {
@@ -58,6 +64,7 @@ public class DoorDetection : MonoBehaviour
             playerController.maxSpeed += aumento;
             playerController.moveSpeed += aumento;
             playerController.jumpSpeed += aumento;
+            luzPU.SetActive(true);
             vecesAumentado++;
         }
     }
